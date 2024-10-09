@@ -5,7 +5,7 @@ CREATE DATABASE music;
 CREATE TABLE artist
 (
     ID INT AUTO_INCREMENT NOT NULL,
-    `name (nickname)` VARCHAR (50) NOT NULL,
+    name VARCHAR (50) NOT NULL,
     PRIMARY KEY (ID)
 );
 
@@ -33,7 +33,7 @@ CREATE TABLE album
 (
     ID INT AUTO_INCREMENT NOT NULL,
     title VARCHAR(50) NOT NULL,
-    year DATE NOT NULL,
+    year INT NOT NULL,
     PRIMARY KEY (ID)
 );
 
