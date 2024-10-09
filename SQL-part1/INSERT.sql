@@ -3,7 +3,8 @@ INSERT INTO artist (name)
 VALUES ('Zivert'),
         ('Баста'),
         ('Кино'),
-        ('NILETTO');
+        ('NILETTO')
+        ('Король и Шут');
 
 -- заполняем таблицу genre
 INSERT INTO genre (title)

@@ -63,6 +63,7 @@ CREATE TABLE tracks
     ID INT AUTO_INCREMENT NOT NULL,
     name VARCHAR(50) NOT NULL,
     year INT NOT NULL,
+    duration INT NOT NULL,
     album_id INT,
     PRIMARY KEY (ID),
     FOREIGN KEY (album_id) REFERENCES album (ID)
